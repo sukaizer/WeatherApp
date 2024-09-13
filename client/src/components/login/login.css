@@ -1,0 +1,98 @@
+.app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 0px;
+  height: 60vh;
+  width: auto;
+}
+
+
+#login--container input[type="text"],
+#login--container input[type="password"] {
+  height: 50px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  font-family: 'Shantell Sans', cursive;
+  font-size: 18px;
+}
+
+.submit-button {
+  margin-top: 10px;
+  cursor: pointer;
+  font-family: 'Shantell Sans', cursive;
+  font-size: 15px;
+  background: #4a01d2;
+  border: 1px solid #4a01d2;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+.submit-button:hover {
+  background: #8763ca;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.login-form {
+  background-color: white;
+  padding: 2rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 5px;
+  width: 30%;
+}
+
+.list-container {
+  display: flex;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+}
+
+.login--title {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: black;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 10px;
+  font-size: 20px;
+}
+
+.clickable-span {
+  cursor: pointer;
+  color: #4a01d2;
+  -webkit-touch-callout: none;
+  /* iOS Safari */
+  -webkit-user-select: none;
+  /* Safari */
+  -khtml-user-select: none;
+  /* Konqueror HTML */
+  -moz-user-select: none;
+  /* Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
+  user-select: none;
+  /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+
+@media only screen and (max-width: 650px) {
+  .login-form {
+    background-color: white;
+    padding: 2rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+    width: 50%;
+  }
+}

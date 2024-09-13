@@ -1,0 +1,270 @@
+.game--container {
+  padding: 0 0 5% 0;
+}
+
+.game--intro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: var(--font-color);;
+}
+
+.game--intro--weather {
+  margin: 2% 0 0 0;
+}
+
+.game--weather {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: var(--font-color);;
+}
+
+.game--weather > h2 {
+  font-size: 5.8vmin;
+}
+
+.game--hint--helper {
+  font-size: 3.6vmin;
+}
+
+.game--character {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: var(--font-color);;
+}
+
+.game--selection--boys {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  color: var(--font-color);;
+}
+
+.game--selection--boys--image {
+  width: 10vmin;
+  height: auto;
+  margin: 5% 10%;
+  opacity: 0.5;
+}
+
+.game--selection--boys--image:hover {
+  background-color: null;
+  opacity: 1;
+  cursor: pointer;
+}
+
+.game--selection--girls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  color: var(--font-color);;
+}
+
+.game--selection--girls--image {
+  width: 13vmin;
+  height: auto;
+  margin: 5% 10%;
+  opacity: 0.5;
+}
+
+.game--selection--girls--image:hover {
+  background-color: null;
+  opacity: 1;
+  cursor: pointer;
+}
+
+.game--hint {
+  margin: 0% 5%;
+  font-size: 4vmin;
+}
+
+
+
+.game--btn {
+  font-weight: 500;
+  color: rgb(0, 0, 0);
+  padding: 0.5rem 1rem;
+  font-family: var(--font-family);
+  cursor: pointer;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  line-height: 25px;
+  transition-property: color,
+    box-shadow;
+  transition-duration: 200ms;
+  box-shadow: 0px 2px 0px 3px black;
+  border: 3px solid black;
+  border-radius: 0.4rem;
+  margin-left: -50px;
+  /* Add this line to move the button slightly more to the left */
+}
+
+
+
+.game--btn:hover {
+  box-shadow: 0px 0px 0px 0px black;
+}
+
+.game--form__field {
+  width: 360px;
+  background: #fff;
+  color: #000000;
+  font: inherit;
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, .1);
+  border: 0;
+  outline: 0;
+  padding: 6px 18px;
+  border-radius: 20px;
+  height: 32px;
+}
+
+.game--city {
+  font-weight: 500;
+  color: rgb(0, 0, 0);
+  background-color: #ffffff;
+  padding: 0.2rem 1rem;
+  font-family: var(--font-family);
+  cursor: pointer;
+  border: none;
+  outline: none;
+  font-size: 26px;
+  line-height: 25px;
+  transition-property: color,
+    box-shadow;
+  transition-duration: 200ms;
+  box-shadow: 0px 2px 0px 3px black;
+  border: 3px solid black;
+  border-radius: 0.4rem;
+  margin-left: 10px;
+  /* Add this line to move the button slightly more to the left */
+}
+
+.game--city:hover {
+  box-shadow: 0px 0px 0px 0px black;
+  background-color: rgba(0, 230, 57, 0.644);
+}
+
+.game--maps-icon {
+  width: 250px;
+  margin: 30px 0px;
+}
+
+.game--main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: var(--font-color);;
+}
+
+.game--main--row1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  color: var(--font-color);
+  font-size: 4vmin;
+  user-select: none;
+}
+
+.game--main--center {
+  display: flex;
+  border: #000000 solid 2px;
+  width: 80vw;
+  height: 60vh;
+}
+
+.game--main--character {
+  width: 18vmin;
+  height: auto;
+  margin: 0 0 0 0;
+  user-select: none;
+}
+
+.game--hint-image {
+  width: 10vmin;
+  height: auto;
+  user-select: none;
+}
+
+.game--main--character--dropzone {
+  padding: 40px;
+}
+.game--main--highlighted {
+  background-color: #ff0000;
+}
+
+.game--results {
+  display: flex;
+  margin: 5px 40px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: var(--font-color);
+  font-size: 3vmin;
+}
+
+@media only screen and (max-width: 900px) {
+  .game--maps-icon {
+    width: 150px;
+    margin-top: 40px;
+  }
+
+  .game--form__field {
+    width: 260px;
+    padding: 6px 18px;
+    height: 32px;
+  }
+
+  .game--btn {
+    padding: 0.5rem 1rem;
+    font-size: 15px;
+    margin-left: -50px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .game--maps-icon {
+    width: 150px;
+    margin-top: 40px;
+  }
+
+  .game--form__field {
+    width: 260px;
+    padding: 6px 18px;
+    height: 32px;
+  }
+
+  .game--btn {
+    padding: 0.5rem 1rem;
+    font-size: 15px;
+    margin-left: -50px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .game--maps-icon {
+    width: 150px;
+    margin-top: 40px;
+  }
+
+  .game--form__field {
+    width: 200px;
+    padding: 6px 18px;
+    height: 32px;
+  }
+
+  .game--btn {
+    padding: 0.5rem 1rem;
+    font-size: 13px;
+    margin-left: -50px;
+  }
+}

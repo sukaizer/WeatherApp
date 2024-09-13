@@ -1,0 +1,13 @@
+:root {
+  --font-color: #000000;
+}
+
+body {
+  background-repeat: no-repeat;
+  overflow-x: hidden;
+  overflow-y: auto;
+  background: #d4d4c7 ;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}

@@ -1,0 +1,59 @@
+.game__summary {
+  border-radius: 0.5rem;
+  border: 3px solid black;
+  margin: 2rem;
+  position: relative;
+  padding: 1rem;
+  width: 20vmin;
+  height: 20vmin;
+
+  transition-property: color,
+  box-shadow;
+  transition-duration: 200ms;
+  box-shadow: 0px 4px 0px 6px black;
+}
+
+.game__summary:hover {
+  box-shadow: 0px 0px 0px 0px black;
+  cursor: pointer;
+}
+
+.game__summary--selected {
+  box-shadow: 0px 0px 0px 0px black;
+}
+
+.worst {
+  background: #ff00009f;
+}
+
+.average {
+  background: #ffff0096;
+}
+
+.good {
+  background: #00ff0096;
+}
+
+.best {
+  background: #00ffff9d;
+}
+
+.game__summary--city {
+  font-size: 3vmin;
+}
+
+.game__summary--date {
+  font-size: 2vmin;
+}
+
+.game__summary--image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.game__summary--image img {
+  width: 50%;
+  height: auto;
+  display: inline-block;
+}

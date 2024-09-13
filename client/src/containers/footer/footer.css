@@ -1,0 +1,17 @@
+.footer1 {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.footer2 {
+  position: fixed;
+  bottom: 20px;
+  left: 60px;
+  background-color: white;
+}
+
+.footer2 img {
+  width: 30px;
+  height: auto;
+}

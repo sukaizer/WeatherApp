@@ -1,0 +1,78 @@
+.profile--container {
+  color: var(--font-color);;
+}
+
+.profile--desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+  margin-left: 10vw;
+}
+
+.profile__games {
+  display: flex;
+  flex: 2 0 0;
+  flex-wrap: wrap;
+  justify-content: center;
+  overflow-y: auto;
+  max-height: 80vmin;
+}
+
+.profile__stats {
+  flex: 1 0 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-left: 1px solid black;
+  height: 70vh;
+  width: auto;
+}
+
+.profile__stats img {
+  width: 18vmin;
+  height: auto;
+  display: inline-block;
+}
+
+.profile--content {
+  display: flex;
+}
+
+.profile__stats--content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  color: var(--font-color);
+  user-select: none;
+  padding: 10px;
+}
+
+.profile__stats--content > h2 {
+  font-size: 2.8vmax;
+  container-name: profile__stats--content;
+}
+
+.profile__stats--content > img {
+  width: 40%;
+}
+
+.profile__stats--description {
+  margin: 0 30px;
+}
+
+.profile__stats--clothes {
+  display: flex;
+  overflow: auto;
+}
+
+.profile__stats--clothes img {
+  height: 8vmax;
+  width: auto;
+}
+
+/* @media only screen and (max-width: 992px) {
+
+} */
